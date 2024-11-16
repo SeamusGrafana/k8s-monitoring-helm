@@ -19,7 +19,7 @@ dependencies:
   version: 4.42.0
 - name: prometheus-operator-crds
   repository: https://prometheus-community.github.io/helm-charts
-  version: 15.0.0
+  version: 16.0.0
 - name: prometheus-windows-exporter
   repository: https://prometheus-community.github.io/helm-charts
   version: 0.7.1
@@ -32,5 +32,5 @@ dependencies:
 - name: beyla
   repository: https://grafana.github.io/helm-charts
   version: 1.4.11
-digest: sha256:aec14624c9028d6ece8d9cf54c760aa6e65a4ef93ab29481e5cf51b7ec9980a4
-generated: "2024-11-10T00:23:07.83820589Z"
+digest: sha256:3349ced1e032718bd60d53d9370dbf31d6cbdc6ab21a81e579704faf5e1292b6
+generated: "2024-11-16T00:57:17.078405562Z"
