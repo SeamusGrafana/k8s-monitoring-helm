@@ -6,11 +6,11 @@ metadata:
   name: ko-alloy-logs
   namespace: default
   labels:
-    helm.sh/chart: alloy-logs-0.9.2
+    helm.sh/chart: alloy-logs-0.10.0
     app.kubernetes.io/name: alloy-logs
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -22,11 +22,11 @@ metadata:
   name: ko-alloy-metrics
   namespace: default
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -38,11 +38,11 @@ metadata:
   name: ko-alloy-profiles
   namespace: default
   labels:
-    helm.sh/chart: alloy-profiles-0.9.2
+    helm.sh/chart: alloy-profiles-0.10.0
     app.kubernetes.io/name: alloy-profiles
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -54,11 +54,11 @@ metadata:
   name: ko-alloy-receiver
   namespace: default
   labels:
-    helm.sh/chart: alloy-receiver-0.9.2
+    helm.sh/chart: alloy-receiver-0.10.0
     app.kubernetes.io/name: alloy-receiver
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -70,11 +70,11 @@ metadata:
   name: ko-alloy-singleton
   namespace: default
   labels:
-    helm.sh/chart: alloy-singleton-0.9.2
+    helm.sh/chart: alloy-singleton-0.10.0
     app.kubernetes.io/name: alloy-singleton
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -85,13 +85,13 @@ kind: ServiceAccount
 automountServiceAccountToken: true
 metadata:
   labels:    
-    helm.sh/chart: kube-state-metrics-5.26.0
+    helm.sh/chart: kube-state-metrics-5.27.0
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/instance: ko
-    app.kubernetes.io/version: "2.13.0"
+    app.kubernetes.io/version: "2.14.0"
     release: ko
   name: ko-kube-state-metrics
   namespace: default
@@ -3216,11 +3216,11 @@ kind: ClusterRole
 metadata:
   name: ko-alloy-logs
   labels:
-    helm.sh/chart: alloy-logs-0.9.2
+    helm.sh/chart: alloy-logs-0.10.0
     app.kubernetes.io/name: alloy-logs
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3316,11 +3316,11 @@ kind: ClusterRole
 metadata:
   name: ko-alloy-metrics
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3416,11 +3416,11 @@ kind: ClusterRole
 metadata:
   name: ko-alloy-profiles
   labels:
-    helm.sh/chart: alloy-profiles-0.9.2
+    helm.sh/chart: alloy-profiles-0.10.0
     app.kubernetes.io/name: alloy-profiles
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3516,11 +3516,11 @@ kind: ClusterRole
 metadata:
   name: ko-alloy-receiver
   labels:
-    helm.sh/chart: alloy-receiver-0.9.2
+    helm.sh/chart: alloy-receiver-0.10.0
     app.kubernetes.io/name: alloy-receiver
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3616,11 +3616,11 @@ kind: ClusterRole
 metadata:
   name: ko-alloy-singleton
   labels:
-    helm.sh/chart: alloy-singleton-0.9.2
+    helm.sh/chart: alloy-singleton-0.10.0
     app.kubernetes.io/name: alloy-singleton
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3715,13 +3715,13 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   labels:    
-    helm.sh/chart: kube-state-metrics-5.26.0
+    helm.sh/chart: kube-state-metrics-5.27.0
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/instance: ko
-    app.kubernetes.io/version: "2.13.0"
+    app.kubernetes.io/version: "2.14.0"
     release: ko
   name: ko-kube-state-metrics
 rules:
@@ -3872,11 +3872,11 @@ kind: ClusterRoleBinding
 metadata:
   name: ko-alloy-logs
   labels:
-    helm.sh/chart: alloy-logs-0.9.2
+    helm.sh/chart: alloy-logs-0.10.0
     app.kubernetes.io/name: alloy-logs
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3895,11 +3895,11 @@ kind: ClusterRoleBinding
 metadata:
   name: ko-alloy-metrics
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3918,11 +3918,11 @@ kind: ClusterRoleBinding
 metadata:
   name: ko-alloy-profiles
   labels:
-    helm.sh/chart: alloy-profiles-0.9.2
+    helm.sh/chart: alloy-profiles-0.10.0
     app.kubernetes.io/name: alloy-profiles
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3941,11 +3941,11 @@ kind: ClusterRoleBinding
 metadata:
   name: ko-alloy-receiver
   labels:
-    helm.sh/chart: alloy-receiver-0.9.2
+    helm.sh/chart: alloy-receiver-0.10.0
     app.kubernetes.io/name: alloy-receiver
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3964,11 +3964,11 @@ kind: ClusterRoleBinding
 metadata:
   name: ko-alloy-singleton
   labels:
-    helm.sh/chart: alloy-singleton-0.9.2
+    helm.sh/chart: alloy-singleton-0.10.0
     app.kubernetes.io/name: alloy-singleton
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: rbac
@@ -3986,13 +3986,13 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   labels:    
-    helm.sh/chart: kube-state-metrics-5.26.0
+    helm.sh/chart: kube-state-metrics-5.27.0
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/instance: ko
-    app.kubernetes.io/version: "2.13.0"
+    app.kubernetes.io/version: "2.14.0"
     release: ko
   name: ko-kube-state-metrics
 roleRef:
@@ -4010,11 +4010,11 @@ kind: Service
 metadata:
   name: ko-alloy-logs
   labels:
-    helm.sh/chart: alloy-logs-0.9.2
+    helm.sh/chart: alloy-logs-0.10.0
     app.kubernetes.io/name: alloy-logs
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4036,11 +4036,11 @@ kind: Service
 metadata:
   name: ko-alloy-metrics-cluster
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4069,11 +4069,11 @@ kind: Service
 metadata:
   name: ko-alloy-metrics
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4095,11 +4095,11 @@ kind: Service
 metadata:
   name: ko-alloy-profiles
   labels:
-    helm.sh/chart: alloy-profiles-0.9.2
+    helm.sh/chart: alloy-profiles-0.10.0
     app.kubernetes.io/name: alloy-profiles
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4121,11 +4121,11 @@ kind: Service
 metadata:
   name: ko-alloy-receiver
   labels:
-    helm.sh/chart: alloy-receiver-0.9.2
+    helm.sh/chart: alloy-receiver-0.10.0
     app.kubernetes.io/name: alloy-receiver
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4151,11 +4151,11 @@ kind: Service
 metadata:
   name: ko-alloy-singleton
   labels:
-    helm.sh/chart: alloy-singleton-0.9.2
+    helm.sh/chart: alloy-singleton-0.10.0
     app.kubernetes.io/name: alloy-singleton
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
     app.kubernetes.io/component: networking
@@ -4178,13 +4178,13 @@ metadata:
   name: ko-kube-state-metrics
   namespace: default
   labels:    
-    helm.sh/chart: kube-state-metrics-5.26.0
+    helm.sh/chart: kube-state-metrics-5.27.0
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/instance: ko
-    app.kubernetes.io/version: "2.13.0"
+    app.kubernetes.io/version: "2.14.0"
     release: ko
   annotations:
 spec:
@@ -4262,11 +4262,11 @@ kind: DaemonSet
 metadata:
   name: ko-alloy-logs
   labels:
-    helm.sh/chart: alloy-logs-0.9.2
+    helm.sh/chart: alloy-logs-0.10.0
     app.kubernetes.io/name: alloy-logs
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
 spec:
@@ -4286,7 +4286,7 @@ spec:
       serviceAccountName: ko-alloy-logs
       containers:
         - name: alloy
-          image: docker.io/grafana/alloy:v1.4.3
+          image: docker.io/grafana/alloy:v1.5.0
           imagePullPolicy: IfNotPresent
           args:
             - run
@@ -4375,11 +4375,11 @@ kind: DaemonSet
 metadata:
   name: ko-alloy-profiles
   labels:
-    helm.sh/chart: alloy-profiles-0.9.2
+    helm.sh/chart: alloy-profiles-0.10.0
     app.kubernetes.io/name: alloy-profiles
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
 spec:
@@ -4399,7 +4399,7 @@ spec:
       serviceAccountName: ko-alloy-profiles
       containers:
         - name: alloy
-          image: docker.io/grafana/alloy:v1.4.3
+          image: docker.io/grafana/alloy:v1.5.0
           imagePullPolicy: IfNotPresent
           args:
             - run
@@ -4462,11 +4462,11 @@ kind: DaemonSet
 metadata:
   name: ko-alloy-receiver
   labels:
-    helm.sh/chart: alloy-receiver-0.9.2
+    helm.sh/chart: alloy-receiver-0.10.0
     app.kubernetes.io/name: alloy-receiver
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
 spec:
@@ -4486,7 +4486,7 @@ spec:
       serviceAccountName: ko-alloy-receiver
       containers:
         - name: alloy
-          image: docker.io/grafana/alloy:v1.4.3
+          image: docker.io/grafana/alloy:v1.5.0
           imagePullPolicy: IfNotPresent
           args:
             - run
@@ -4800,11 +4800,11 @@ kind: Deployment
 metadata:
   name: ko-alloy-singleton
   labels:
-    helm.sh/chart: alloy-singleton-0.9.2
+    helm.sh/chart: alloy-singleton-0.10.0
     app.kubernetes.io/name: alloy-singleton
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
 spec:
@@ -4826,7 +4826,7 @@ spec:
       serviceAccountName: ko-alloy-singleton
       containers:
         - name: alloy
-          image: docker.io/grafana/alloy:v1.4.3
+          image: docker.io/grafana/alloy:v1.5.0
           imagePullPolicy: IfNotPresent
           args:
             - run
@@ -4904,13 +4904,13 @@ metadata:
   name: ko-kube-state-metrics
   namespace: default
   labels:    
-    helm.sh/chart: kube-state-metrics-5.26.0
+    helm.sh/chart: kube-state-metrics-5.27.0
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/component: metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/instance: ko
-    app.kubernetes.io/version: "2.13.0"
+    app.kubernetes.io/version: "2.14.0"
     release: ko
 spec:
   selector:
@@ -4924,13 +4924,13 @@ spec:
   template:
     metadata:
       labels:        
-        helm.sh/chart: kube-state-metrics-5.26.0
+        helm.sh/chart: kube-state-metrics-5.27.0
         app.kubernetes.io/managed-by: Helm
         app.kubernetes.io/component: metrics
         app.kubernetes.io/part-of: kube-state-metrics
         app.kubernetes.io/name: kube-state-metrics
         app.kubernetes.io/instance: ko
-        app.kubernetes.io/version: "2.13.0"
+        app.kubernetes.io/version: "2.14.0"
         release: ko
     spec:
       automountServiceAccountToken: true
@@ -4950,7 +4950,7 @@ spec:
         - --resources=certificatesigningrequests,configmaps,cronjobs,daemonsets,deployments,endpoints,horizontalpodautoscalers,ingresses,jobs,leases,limitranges,mutatingwebhookconfigurations,namespaces,networkpolicies,nodes,persistentvolumeclaims,persistentvolumes,poddisruptionbudgets,pods,replicasets,replicationcontrollers,resourcequotas,secrets,services,statefulsets,storageclasses,validatingwebhookconfigurations,volumeattachments
         - --metric-labels-allowlist=nodes=[agentpool,alpha.eksctl.io/cluster-name,alpha.eksctl.io/nodegroup-name,beta.kubernetes.io/instance-type,cloud.google.com/gke-nodepool,cluster_name,ec2_amazonaws_com_Name,ec2_amazonaws_com_aws_autoscaling_groupName,ec2_amazonaws_com_aws_autoscaling_group_name,ec2_amazonaws_com_name,eks_amazonaws_com_nodegroup,k8s_io_cloud_provider_aws,karpenter.sh/nodepool,kubernetes.azure.com/cluster,kubernetes.io/arch,kubernetes.io/hostname,kubernetes.io/os,node.kubernetes.io/instance-type,topology.kubernetes.io/region,topology.kubernetes.io/zone]
         imagePullPolicy: IfNotPresent
-        image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+        image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.14.0
         ports:
         - containerPort: 8080
           name: "http"
@@ -4970,7 +4970,7 @@ spec:
           httpGet:
             httpHeaders:
             path: /readyz
-            port: 8080
+            port: 8081
             scheme: HTTP
           initialDelaySeconds: 5
           periodSeconds: 10
@@ -4993,11 +4993,11 @@ kind: StatefulSet
 metadata:
   name: ko-alloy-metrics
   labels:
-    helm.sh/chart: alloy-metrics-0.9.2
+    helm.sh/chart: alloy-metrics-0.10.0
     app.kubernetes.io/name: alloy-metrics
     app.kubernetes.io/instance: ko
     
-    app.kubernetes.io/version: "v1.4.3"
+    app.kubernetes.io/version: "v1.5.0"
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/part-of: alloy
 spec:
@@ -5021,7 +5021,7 @@ spec:
       serviceAccountName: ko-alloy-metrics
       containers:
         - name: alloy
-          image: docker.io/grafana/alloy:v1.4.3
+          image: docker.io/grafana/alloy:v1.5.0
           imagePullPolicy: IfNotPresent
           args:
             - run
